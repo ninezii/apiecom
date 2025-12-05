@@ -12,3 +12,4 @@ Route::prefix('contact')->group(function () {
     Route::post('/submid', [ContactController::class, 'submit'])->name('contact.submit');
 });
 
+
